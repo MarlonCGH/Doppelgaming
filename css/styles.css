@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(252, 252, 252);
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+  color: #f9faf8;
+  background-color: #1f2937;
+
+}
+
+main {
+  display: flex;
+  height: 8000px;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
