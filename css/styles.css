@@ -3,41 +3,39 @@ body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+  color: #f9faf8;
+  background-color: #1f2937;
+
 }
 
 main {
   display: flex;
+  height: 8000px;
 }
-/* Header for Navigation */
-/* header {
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+
+
+nav {
   display: flex;
-  flex: 1;
-  position: fixed;
-} Idk wtf happened here*/
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
 
-nav ul {
+.nav-links {
   display: flex;
-  flex-flow: row;
-  flex: 1;
-  text-transform: uppercase;
-}
-
-nav ul li {
-  border: 1px solid black;
-  flex: 1;
-}
-
-#logo {
-  flex-grow: 3;
-}
-
-/* Main Section */
-section {
-  flex: 5 1 0%;
-}
-
-/* Aside */
-aside {
-  order: 1;
-  flex: 1 1 0%;
+  gap: 15px;
 }
